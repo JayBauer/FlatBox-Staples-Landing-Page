@@ -1,7 +1,5 @@
 // Universal utility mixins //
-// This will be updated over time //
-// and available to all projects //
-/**********************************/
+/****************************/
 
 @mixin background-cover($image) {
   background:url('../images/#{$image}') no-repeat center;
@@ -77,3 +75,33 @@
 
 // Theme-specific mixins //
 /*************************/
+@mixin tabs($size,$color,$location) {
+  font-family:FontAwesome;
+  font-size:1.5rem;
+  text-align:center;
+  color:$white;
+  position:absolute;
+  display:block;
+  height:#{$size/2}px;
+  width:#{$size}px;
+  @include center-x();
+  i {
+    position:absolute;
+    @include center-both();
+  }
+  &:hover {
+    color:$white;
+  }
+  @if($location == before) {
+    top:#{-($size/2)}px;
+    border-top-left-radius:#{$size}px;
+    border-top-right-radius:#{$size}px;
+    background-color:$color;
+  }
+  @if($location == after) {
+    bottom:#{-($size/2)}px;
+    border-bottom-left-radius:#{$size}px;
+    border-bottom-right-radius:#{$size}px;
+    background-color:$color;
+  }
+}

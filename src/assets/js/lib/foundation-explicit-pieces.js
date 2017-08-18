@@ -12,10 +12,6 @@ import { Touch } from 'foundation-sites/js/foundation.util.touch';
 import { Triggers } from 'foundation-sites/js/foundation.util.triggers';
 
 
-/******************************************************
-Comment out individual modules to customize Foundation
-******************************************************/
-
 //import { Abide } from 'foundation-sites/js/foundation.abide';
 //import { Accordion } from 'foundation-sites/js/foundation.accordion';
 //import { AccordionMenu } from 'foundation-sites/js/foundation.accordionMenu';
@@ -63,10 +59,6 @@ Foundation.Timer = Timer;
 Touch.init($);
 
 Triggers.init($, Foundation);
-
-/******************************************************
-Comment out individual modules to customize Foundation
-******************************************************/
 
 // Foundation.plugin(Abide, 'Abide');
 // Foundation.plugin(Accordion, 'Accordion');

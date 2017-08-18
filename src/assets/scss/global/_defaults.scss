@@ -1,3 +1,31 @@
 * {
   outline:none;
 }
+
+h1,h2,h3 {
+  margin:0;
+  line-height:1;
+  font-weight:600;
+}
+
+h1,h2 {
+  text-transform:uppercase;
+  span {
+    color:$turq;
+  }
+}
+
+section h2:first-child {
+  margin:rem-calc(50) 0;
+  text-align:center;
+}
+
+h3 {
+  margin:rem-calc(25) 0;
+}
+
+h4 {
+  line-height:2.1;
+  font-weight:600;
+  text-transform:uppercase;
+}

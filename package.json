@@ -30,7 +30,7 @@
     "gulp-concat": "^2.5.2",
     "gulp-extname": "^0.2.0",
     "gulp-if": "^2.0.0",
-    "gulp-imagemin": "^2.2.1",
+    "gulp-imagemin": "^3.3.0",
     "gulp-load-plugins": "^1.1.0",
     "gulp-pngquant": "^1.0.11",
     "gulp-remove-use-strict": "0.0.2",

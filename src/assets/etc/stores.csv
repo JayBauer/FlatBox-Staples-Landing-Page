@@ -1,0 +1,119 @@
+uuid,latitude,longitude,location_name,street_address,city,province,postal,phone
+0,43.859566,-79.026075,Ajax Staples,16 Harwood Avenue South,Ajax,ON,L1S 7L8,905-686-1422
+1,44.149683,-79.882963,Alliston Mills Staples,92 Young Street,Alliston,ON,L9R 1P8,705-434-4992
+2,43.228732,-79.94188,Ancaster Staples,1015 Golf Links Rd.Meadowland Sq. Bldg.#1,Ancaster,ON,L9K 1L6,905-648-6047
+3,43.987284,-79.465095,Aurora Staples,14800 Yonge St. Unit #180(Aurora Shopping Ctr.),Aurora,ON,L4G 1N3,905-713-0367
+4,44.338149,-79.688801,Barrie Staples,36 Barrie View Drive,Barrie,ON,L4N 8V4,705-733-3329
+5,44.417391,-79.712959,Barrie II Staples,561 Bayfield Street,Barrie,ON,L4M 4Z9,705-735-4058,
+6,44.187114,-77.405238,Belleville Staples,190 Bell Blvd.,Belleville,ON,K8P 5L2,613-961-7399
+7,43.872226,-79.725449,Bolton Staples,471 Queen Street S. Unit # 2,Bolton,ON,L7E 2B5,905-951-1640
+8,43.909889,-78.679136,Bowmanville Staples,185-187 King Street East,Bowmanville,ON,L1C 1P2,905-623-1700
+9,45.043051,-79.326783,Bracebridge Staples,"500 Highway 118 W, Unit 102",Bracebridge,ON,P1L 1X3,705-646-2775
+10,43.728156,-79.764854,Brampton 410 Staples,80 Great Lakes Dr.,Brampton,ON,L6R 2K7,905-789-5799
+11,43.741912,-79.696566,Malton Staples,2937 Queen St. East,Brampton,ON,L6T 5J1,905-791-4522
+12,43.666139,-79.737557,Shopper's Brampton Staples,499 Main Street South,Brampton,ON,L6Y 1N7,905-796-2403,
+13,43.170499,-80.247162,Brantford Staples,595 West Street,Brantford,ON,N3R 7C5,519-752-3367
+14,44.604086,-75.698934,Brockville Staples,1000 Island Mall,Brockville,ON,K6V 3G9,613-498-2616
+15,43.335104,-79.815092,Burlington Staples,1881 Fairview Street,Burlington,ON,L7S 2K4,905-637-1422
+16,43.357512,-79.805745,Burlington Staples,3060 Davidson Court Unit C2,Burlington,ON,L7M 4X7,905-332-1071
+17,43.412048,-80.326089,Cambridge Staples,26 Pinebush Road,Cambridge,ON,N1R 8K5,519-622-5280
+18,45.132853,-76.120867,Carleton Place Staples,555 McNeely Avenue,Carleton Place,ON,K7C 0A8,613-253-2400
+19,45.132853,-76.120867,Chatham Staples,788 St. Clair Street ,Chatham,ON,N7L 0E8,519-360-1344
+20,43.970539,-78.196453,Cobourg Staples,1025 Elgin Street West,Cobourg,ON,K9A 5W4,905-377-0458
+21,44.502156,-80.235858,Collingwood Staples,"15 Balsam Street, Unit # 1",Collingwood,ON,L9Y 5H6,705-445-0505
+22,45.030067,-74.735205,Cornwall Staples,7- 9th Street East,Cornwall,ON,K6H 6R3,613-936-6952
+23,45.458544,-75.484626,Orleans Staples,2085 Tenth Line Rd.,Cumberland,ON,K4A 4C5,613-830-8100,
+24,43.615195,-79.557355,Sherway Staples,1750 The Queensway,Etobicoke,ON,M9C 5H5,416-620-5674
+25,43.716558,-79.592639,Rexdale Staples,180 Queens Plate Drive,Etobicoke,ON,M9W 6V1,416-749-9932
+26,45.430381,-75.639249,Gloucester Staples,1233 Donald St. Unit # 20 ,Gloucester,ON,K1J 8W3,613-745-4773
+27,43.51674,-80.236247,Guelph Staples,370 Stone Road West,Guelph,ON,N1G 4V9,519-763-4205
+28,43.567491,-80.276084,Woodlawn Centre Staples,20 Woodlawn Rd. E.,Guelph,ON,N1H 1G7,519-822-2344
+29,43.218275,-79.865423,Limeridge Staples,970 Upper Wentworth St,Hamilton,ON,L9A 4V8,905-383-7913
+30,43.252548,-79.808761,Hamilton Central M Staples,1267 Barton Street East,Hamilton,ON,L8H 2V4,905-547-4778
+31,43.175022,-79.790497,Rymal Rd - Hannon Staples,"2130 Rymal Road East, Unit #103",Hannon,ON,L0R 1P0,905-692-7215
+32,43.175022,-79.790508,Hawkesbury Staples,460 County Rd. 17 Unit 8,Hawkesbury,ON,K6A 2R2,613-632-6800
+33,45.335486,-79.20268,Huntsville Staples,"91 King William Street, Unit # 102",Huntsville,ON,P1H 1E5,705-789-5817
+34,45.307331,-75.917942,Kanata Staples,8141 Campeau Drive,Kanata,ON,K2T 1B7,613-592-3538
+35,45.030184,-75.631381,Kemptville Staples,302 Colonnade Drive,Kemptville,ON,K0G 1J0,613-258-5900
+36,44.227132,-79.448044,Keswick Staples,"24018 Woodbine Avenue, Unit A-02",Keswick,ON,L4P 3E9,905-989-2283
+37,44.233001,-76.483342,Kingston Core Staples,105 Queen Street,Kingston,ON,K7K 1A5,613-542-3585
+38,44.243062,-76.563944,Gardiners Road Staples,616 Gardiners Road,Kingston,ON,K7M 3X9,613-634-2112
+39,43.426002,-80.489159,Kitchener Staples,245 Strasburg Road,Kitchener,ON,N2E 3W7,519-571-7420
+40,43.43472,-80.562326,Kitchener Ira Needles Staples,"225 The Boardwalk, Unit # 5",Kitchener,ON,N2N 0B1,519-579-1614
+41,43.402797,-80.488272,Kitchener Staples,50 Washburn Drive,Kitchener,ON,N2R 1S2,000-000-0000
+42,42.033027,-82.597815,Leamington Staples,16 Seacliff Drive East,Leamington,ON,N8H 2L2,519-324-1370
+43,44.349007,-78.756003,Lindsay-Kawartha Lk Ctr Staples,"363 Kent Street Centre, Unit 600",Lindsay,On,K9V 2Z7,705-328-3427
+44,42.962545,-81.22839,Wellington Staples,332 Wellington Road,London,ON,N6C 4P6,519-645-7042
+45,43.003134,-81.171866,Dundas Staples,1925 Dundas Street East,London,ON,N5V 1P7,519-659-3428
+46,43.027315,-81.285102,Masonville Staples,Unit #9 1737 Richmond Street,London,ON,N5X 3Y2,519-661-0888
+47,42.936592,-81.277878,London Wonderland Staples,3080 Wonderland Road South,London,ON,N6L 1A6,519-690-2049
+48,43.850006,-79.352081,Markham Staples,Unit 200 3175 Highway #7,Markham,ON,L3R 0J5,905-479-3101
+49,43.854243,-79.254483,Kirkham Staples,7725 Markham Road,Markham,ON,L3S 3J9,905-472-0746
+50,44.73704,-79.912005,Midland Staples,9226 Highway 93,Midland,ON,L4R 4K4,705-526-5510
+51,43.540721,-79.868154,Milton Staples,"1220 Steeles Ave. East, Unit #G6",Milton,ON,L9T 6R1,905-878-2434
+52,43.639237,-79.622527,Dixie Staples,1530 Aimco Blvd.,Mississauga,ON,L4W 5K1,905-602-5889
+53,43.609247,-79.694801,Heartland Staples,5900 Mavis Road,Mississauga,ON,L5V 2P5,905-813-3134
+54,43.69962,-79.611399,Mississauga Delivery Centre Staples,6275 Northwest Drive,Mississauga,ON,L4V 1P6,905 678 4200
+55,43.659977,-79.664879,Warehouse Staples,6450 Vipond Drive,Mississauga,ON,L5T 1W8,289-562-2532
+56,43.596435,-79.790077,Argentia Staples,3135 Argentia Road Unit 2,Mississauga,ON,L5N 8E1,905-785-0864
+57,43.622478,-79.56832,Dundas/Hwy 427 Staples,"2040 Dundas Street East, Unit 1",Mississauga,ON,L4X 2X8,905-279-4392
+58,43.579878,-79.648465,Grand Park Staples,3950 Grand Park Drive,Mississauga,ON,L5B 4M6,905-306-7888
+59,43.641804,-79.678451,SA Mississauga Staples,550 Pendant Drive,Mississauga,ON,L5T 2W6,905-696-4444
+60,45.352918,-75.732792,Merivale Staples,1595 Merivale Road,Nepean,ON,K2G 3J4,613-226-7989
+61,45.27073,-75.739853,Barrhaven Staples,101 Marketplace Avenue,Nepean,ON,K2J 5G5,613-825-0457
+62,44.060869,-79.485038,Newmarket Staples,17810 Yonge Street Bldg A,Newmarket,ON,L3Y 8S1,905-898-3956
+63,43.102628,-79.116516,Niagara Falls Staples,7190 Morrison Street Bldg.,Niagara Falls,ON,L2E 7K5,905-358-0650
+64,46.331213,-79.467611,North Bay Staples,1899 Algonquin Avenue,North Bay,ON,P1B 4Y8,705-472-7223
+65,43.445316,-79.704176,Oakville Staples,320 North Service Road West,Oakville,ON,L6M 2R7,905-338-6535
+66,43.521166,-79.681135,Winston Churchill Staples,2460 Winston Churchill Blvd.,Oakville,ON,L6H 6J5,905-829-1960
+67,43.928483,-80.099829,Orangeville Staples,88 First Street,Orangeville,ON,L9W 3J6,519-942-1360
+68,44.611868,-79.447392,Orillia Staples,135 Murphy Road,Orillia,ON,L3V 0B5,705-329-3074
+69,43.887759,-78.876074,Oshawa Centre Staples,"410 Gibb Street, West",Oshawa,ON,L1J 0B2,905-404-4392
+70,45.356782,-75.655181,South Keys Staples,2210 Bank Street,Ottawa,ON,K1V 1J5,613-521-3030
+71,45.413118,-75.693761,Ottawa Core Staples,403 Bank Street,Ottawa,ON,K2P 1Y6,613-235-2525
+72,45.369375,-75.768943,Ottawa-Fairlawn Staples,"2148 Carling Avenue, Unit #2",Ottawa,ON,K2A 1H1,613-729-4585
+73,44.561797,-80.966535,Owen Sound Staples,1077 10th St.W.,Owen Sound,ON,N4K 5S2,519-372-2228
+74,45.820748,-77.084427,Pembroke Staples,1100 Pembroke St E Unit 100,Pembroke,ON,K8A 6Y7,613-735-0437
+75,44.288924,-78.32392,Peterborough Staples,109 Park Street South,Peterborough,ON,K9J 3R8,705-741-1130
+76,43.84195,-79.067452,Pickering Staples,1755 Pickering Parkway ,Pickering,ON,L1V 6K5,905-683-4620
+77,43.841858,-79.420816,Richmond Hill Staples,45 Red Maple Road,Richmond Hill,ON,L4B 4M6,905-882-6995
+78,43.900587,-79.39307,Elgin Mills Staples,"2-1700 Elgin Mills Rd. E,BldgE",Richmond Hill,ON,L4S 0B2,905-770-1600
+79,42.978986,-82.353429,Sarnia Staples,Unit # 2 1379 London Road,Sarnia,ON,N7S 1P6,519-542-4461
+80,42.979001,82.353429,Tech Depot - Sarnia  Staples,"1379 London Road, Unit # 2 ",Sarnia,ON,N7S 1P6,519-542-3639
+81,46.536586,-84.320523,Sault Ste. Marie Staples,345 Great Northern Road,Sault Ste Marie,ON,P6B 4Z8,705-256-1466
+82,43.729284,-79.284083,Scarborough South Staples,1980 Eglinton Avenue East,Scarborough,ON,M1L 2M6,416-752-1091
+83,43.800281,-79.196677,Morningside Staples,850 Milner Ave,Scarborough,ON,M1B 5N7,416-208-7728
+84,42.847272,-80.308916,Simcoe Staples,17 Queensway West,Simcoe,ON,N3Y 2M7,519-426-4060
+85,43.179812,-79.249179,St Catharines II Staples,10 YMCA Drive,St. Catharines,ON,L2N 7R6,905-937-4292
+86,42.781937,-81.171685,St. Thomas Staples,"1063 Talbot Street, Unit 3",St. Thomas,ON,N5P 1G4,519-631-1810
+87,43.956868,-79.278387,Stouffville Staples,"1010 Hoover Park Drive, Unit 2",Stouffville,ON,L4A 0K2,905-642-6800
+88,43.371681,-80.944123,Stratford Staples,1076 Ontario Street,Stratford,ON,N5A 6Z3,519-273-5305
+89,42.947316,-81.611358,Strathroy Staples,"425 Caradoc Street South, Unit #1",Strathroy,ON,N7G 2P5,519-245-5665
+90,46.509671,-80.988472,Sudbury Staples,747 Notre Dame Avenue,Sudbury,ON,P3A 2T2,705-525-1180
+91,46.502865,-80.948515,Kingsway Staples,1425 Kingsway Avenue,Sudbury,ON,P3B 0A2,705-524-6227
+92,43.798451,-79.470936,Thornhill Staples,"1450 Clark Avenue West, Unit 1",Thornhill,ON,L4J 7R5,905-669-5096
+93,43.798371,-79.421953,Yonge and Steeles Staples,32 Steeles Avenue West,Thornhill,ON,L4J 1A1,905-763-0227
+94,48.413007,-89.24344,Thunder Bay Staples,767 Memorial Ave.,Thunder Bay,ON,P7B 3Z7,807-343-2506
+95,42.862297,-80.728499,Tillsonburg Town Centre Staples,200 Broadway Street,Tillsonburg,ON,N4G 5A7,519-688-2196
+96,48.471772,-81.38167,Timmins Staples,1485 Riverside Drive,Timmins,ON,P4R 1M8,705-360-4200
+97,43.714073,-79.3585,Leaside Staples,945 Eglinton Avenue East,Toronto,ON,M4G 4B5,416-696-0043
+98,43.716768,-79.456751,Dufferin Staples,3150 Dufferin Street,Toronto,ON,M6A 2T1,416-785-5335
+99,43.653564,-79.387042,University Staples,375 University Avenue,Toronto,ON,M5G 2J5,416-598-4818
+100,43.651782,-79.363582,Front Street Staples,250 Front Street East,Toronto,ON,M5A 1E9,416-368-3331
+101,43.67957,-79.391068,Midtown-T.O. Staples,1140 Yonge Street,Toronto,ON,M4W 2L8,416-961-4949
+102,43.670302,-79.467145,Stock Yards Staples,542 Keele Street,Toronto,ON,M6N 3E2,416-762-2816
+103,43.689665,-79.290625,Shoppers World Staples,"3003 Danforth Ave., Unit # 2",Toronto,ON,M4C 1M9,416-686-4711
+104,43.649775,-79.377882,Yonge Street Staples,85 - 89 Yonge Street,Toronto,ON,M5C 1S8,416-203-3525
+105,43.758214,-79.31076,Victoria Park/Ellesmere Staples,95 Ellesmere Road,Toronto,ON,M1R 4B7,416-444-5237
+106,43.669476,-79.33894,Gerrard Square Staples,"1000 Gerrard Street East, Unit DD16",Toronto,ON,M4M 3G6,416-466-4900
+107,44.093048,-79.13009,Uxbridge Staples,"4 Banff Road, Unit 101",Uxbridge,ON,L9P 1S9,905-862-2614
+108,43.784135,-79.542661,Woodbridge Staples,67 Colossuss Drive,Vaughan,ON,L4L 9J8,905-856-6588
+109,43.784135,-79.542661,Vaughan Staples,Unit D30 - 67 Colossus Drive ,Vaughan,ON,L4L 9J8,905-856-6588
+110,43.314884,-79.909559,Flamborough Staples,88 Dundas Street East,Waterdown,ON,L9H 0C2,905-689-0271
+111,43.504724,-80.535219,Waterloo Staples,620 King St.N.,Waterloo,ON,N2J 4G8,519-888-1716
+112,43.015684,-79.247074,Welland Staples,Suite # 102 800 Niagara Street North,Welland,ON,L3C 5Z4,905-714-7607
+113,43.920449,-78.943933,Taunton Staples,"320 Taunton Road East, Unit #D",Whitby,ON,L1R 0H4,905-655-6700
+114,42.284597,-83.018263,Ouellette Staples,2550 Ouellette Avenue,Windsor,ON,N8X 1L7,519-966-9495
+115,42.313451,-82.941169,Tecumseh Staples,7126 Tecumseh Rd.E.,Windsor,ON,N8T 1E6,519-948-1283
+116,42.253811,-82.964075,Windsor-Walker Staples,4511 Walker Rd.,Windsor,ON,N9A 6J3,519-972-5127
+117,43.115181,-80.737578,Woodstock Staples,497 Norwich Avenue,Woodstock,ON,N4S 9A2,519-421-3202

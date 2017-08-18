@@ -1,0 +1,27 @@
+.reveal {
+  position:relative;
+  padding:rem-calc(50) 0;
+  h3:first-of-type {
+    text-transform:uppercase;
+    margin:0 0 rem-calc(25) 0;
+  }
+  a {
+    display:block;
+    margin-top:rem-calc(15);
+  }
+  button {
+    position:absolute;
+    right:rem-calc(5);
+    top:rem-calc(5);
+    width:rem-calc(30);
+    height:rem-calc(30);
+    background-color:$turq;
+    color:$white;
+    border-radius:rem-calc(5);
+  }
+  &#gma-investigates {
+    padding:0;
+    height:auto;
+    min-height:auto;
+  }
+}

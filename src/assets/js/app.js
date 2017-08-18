@@ -3,8 +3,13 @@ import whatInput from 'what-input';
 
 window.$ = $;
 
-// Switch the comments on these two lines if you want to import all Foundation modules (not recommended for filesize purposes)
 //import Foundation from 'foundation-sites';
+// If you want to pick and choose which modules to include, comment out the above and uncomment
+// the line below
 import './lib/foundation-explicit-pieces';
 
 $(document).foundation();
+
+$('a[href$="#"]').click(function(e) {
+  e.preventDefault();
+});

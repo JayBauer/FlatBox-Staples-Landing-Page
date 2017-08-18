@@ -1,3 +1,41 @@
 header {
-  
+  height:rem-calc(225);
+  @include breakpoint(large) {
+    margin-bottom:rem-calc(-75);
+  }
+  text-align:center;
+  @include breakpoint(800) {
+    background:url('../images/corner-ill.svg') no-repeat top left;
+  }
+  img {
+    margin:rem-calc(50) rem-calc(20);
+  }
+  div {
+    display:block;
+    position:absolute;
+    top:0;
+    left:75%;
+    background-color:$blue;
+    padding:rem-calc(20) rem-calc(40);
+    border-bottom-left-radius:rem-calc(25);
+    border-bottom-right-radius:rem-calc(25);
+    p {
+      text-align:left;
+      color:$white;
+      margin:0;
+    }
+    img {
+      margin:0;
+    }
+  }
+  @include breakpoint(800 down) {
+    height:rem-calc(325);
+    img {
+      margin-top:rem-calc(175);
+    }
+    div {
+      left:50%;
+      @include center-x();
+    }
+  }
 }

@@ -1,0 +1,131 @@
+<section id="packs-a-lunch" class="row expanded collapse">
+  <div class="small-12 large-6 large-push-6 columns">
+    <div class="row">
+    <h1>The Placemat<br />That <span>Packs <br />a Lunch</span></h1> {{#image 'solution-ill.svg' 'Solution Illustration'}}{{/image}}
+    <p>
+      The only lunch box that doubles as a placemat. Just unzip the lunch box flat and watch it turn into a placemat in seconds, creating a germ-free barrier and clean-eating surface. Made from neoprene, FlatBox is 100% machine washable. Simply toss it in your machine to kill 99.99% of germs, bacteria, and allergens. FlatBox LunchBox: carries your lunch, not the germs!
+    </p>
+      {{#buttons 'find' ''}}#find-store{{/buttons}}
+    </div>
+  </div>
+  <div class="small-12 large-6 large-pull-6 columns">
+    {{> slider}}
+  </div>
+</section>
+
+<section id="lunchbox-investigation" class="row expanded">
+  <div class="row">
+    <h2>What's been hiding in your lunch box?</h2>
+    <div class="small-12 medium-6 large-4 columns">
+      <p>Traditional lunch boxes<br />have been deemed</p>
+      <h3>"unhealthy"</h3>
+      <h1>99.99%</h1>
+      <p>of traditional lunch boxes<br />tested contained</p>
+      <h3>harmful bacteria.</h3>
+    </div>
+    <div class="small-12 medium-6 large-4 columns">
+      {{#image 'toilet.svg' 'Toilet'}}{{/image}}
+      <p>"Some lunch boxes had<br />as much bacteria as<br />you expect to find in a</p>
+      <h2>train station toilet.</h2>
+      <p>- Microbiologist Susan Whitter, PHD</p>
+      <h2>73%</h2>
+      <p>of traditional lunch boxes<br />tested contained mould.</p>
+    </div>
+    <div class="small-12 large-4 right columns">
+      <div class="responsive-embed widescreen hide-for-large">
+        <iframe src="https://player.vimeo.com/video/228983113" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+      <div class="responsive-embed widescreen show-for-large" data-open="gma-investigates">
+        <a href="#">
+          {{#image 'gma-investigates.png' 'GMA Investigates'}}{{/image}}
+        </a>
+      </div>
+      <p>As seen on ABC News, Good Morning America</p>
+    </div>
+    <div id="gma-investigates" class="reveal" data-reveal data-full-screen="false" data-reset-on-close="true">
+      <div class="responsive-embed widescreen">
+        <iframe src="https://player.vimeo.com/video/228983113" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <a href="#about-flatbox" class="tab"><i class="fa fa-arrow-down"></i></a>
+</section>
+
+<section id="about-flatbox" class="row expanded">
+  <div class="row">
+    <h2>Why People <span>Love FlatBox</span></h2>
+      <div class="row">
+        {{#each about}}
+        <div class="small-12 medium-4 columns">
+          <img src="{{root}}assets/images/{{this.url}}" alt="{{this.alt}}" />
+          <h3>{{this.header}}</h3>
+          <p>{{{this.info}}}</p>
+        </div>
+        {{/each}}
+      </div>
+  </div>
+</section>
+
+<section id="shop" class="row expanded">
+  <div class="row" data-equalizer>
+    <h2>Shop FlatBox at <span>Staples</span></h2>
+    {{#each shop-flatbox}}
+    <div class="small-12 medium-6 large-3 columns" data-equalizer-watch>
+      <a href="#" data-open="{{this.[0]}}">
+        <img src="{{root}}assets/images/{{this.[0]}}-closed.jpg" onmouseover="this.src='{{root}}assets/images/{{this.[0]}}-open.jpg'" onmouseout="this.src='{{root}}assets/images/{{this.[0]}}-closed.jpg'" />
+        <h3>{{this.[1]}}</h3>
+      </a>
+      <p>{{this.[2]}}</p>
+      {{#buttons 'find' ''}}#find-store{{/buttons}}
+    </div>
+    <div class="reveal large row" id="{{this.[0]}}" data-reveal>
+      <div class="small-12 medium-6 large-5 columns">
+        <button class="close-button" data-close aria-label="Close" type="button">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <img src="{{root}}assets/images/{{this.[0]}}-closed.jpg" />
+      </div>
+      <div class="small-12 medium-6 large-7 columns">
+        <h3>{{this.[1]}}</h3>
+        <h3>{{this.[2]}}</h3>
+        <p>{{this.[4]}}</p>
+        <a href="#find-store" class="green-button" data-close onclick="ga('send', 'event', 'Staples', 'Click', 'Find a Store');"><h4>Find a Store!</h4></a>
+      </div>
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section id="testimonials" class="row expanded">
+  <a href="#testimonials" class="tab"><i class="fa fa-arrow-down"></i></a>
+  <div class="row">
+    <h2>What Others Think</h2>
+    <div class="small-12 medium-6 large-4 columns">
+      {{#image 'testimonials.png' 'Testimonials'}}{{/image}}
+    </div>
+    <div class="small-12 medium-6 large-8 columns">
+      {{> testimonials}}
+    </div>
+  </div>
+</section>
+
+<section id="featured" class="row expanded">
+  <div class="row" data-equalizer>
+    <h2>Featured <span>On</span></h2>
+    {{#each logos}}
+    <div class="columns" data-equalizer-watch>
+      <img src="{{root}}assets/images/logos/{{this}}.png" alt="{{this}}" />
+    </div>
+    {{/each}}
+  </div>
+</section>
+
+<section id="find-store" class="row expanded">
+  <div class="row">
+    <h2>Find FlatBox <span>In Store</span></h2>
+    <h4>*available at select store locations</h4>
+    <div class="small-12 columns">
+      {{> store-locator}}
+    </div>
+  </div>
+</section>

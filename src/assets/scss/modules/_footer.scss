@@ -4,5 +4,39 @@
 }
 
 footer {
-  
+  height:rem-calc(250);
+  background-color:$black;
+  color:$white;
+  text-align:center;
+  .row:nth-of-type(1) {
+    display:inline-block;
+    height:rem-calc(80);
+    margin:rem-calc(50);
+    .columns {
+      position:relative;
+      height:rem-calc(80);
+      width:rem-calc(80);
+      border-radius:rem-calc(80);
+      &:not(:last-child) {
+        margin-right:rem-calc(25);
+      }
+      a {
+        width:rem-calc(80);
+        height:rem-calc(80);
+        border-radius:rem-calc(80);
+      }
+      i,a {
+        position:absolute;
+        @include center-both();
+        font-size:rem-calc(50);
+        color:$white;
+      }
+      $colors: #bbcf30, #53c3c1, #ed66a1;
+      @for $i from 1 through length($colors) {
+        &:nth-of-type(#{$i}) {
+          background-color:nth($colors, $i);
+        }
+      }
+    }
+  }
 }

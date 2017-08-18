@@ -1,0 +1,69 @@
+#find-store {
+  #map-canvas,
+  #map-panel,
+  #panel {
+    height: rem-calc(500);
+  }
+
+  .row .row:first-of-type {
+    margin-bottom: rem-calc(20);
+    color: $white;
+    background-color: $blue;
+    border-radius: 10px;
+    position: relative;
+
+    p {
+      margin: rem-calc(10) 0;
+    }
+  }
+
+  #map-panel {
+    ul {
+      list-style-type: none;
+      text-align: left;
+      height: rem-calc(500);
+      overflow: auto;
+    }
+
+    li {
+      padding: rem-calc(10);
+      cursor: pointer;
+
+      &:hover {
+        background-color: $medium-gray;
+      }
+
+      &:not(:last-child) {
+        border-bottom: 2px solid $medium-gray;
+      }
+
+      i {
+        color: $yellow;
+      }
+
+      span {
+        padding-left: rem-calc(10);
+      }
+
+      a {
+        color: $dark-gray;
+        text-decoration: underline;
+      }
+    }
+  }
+
+  .map-infoWindow {
+    text-align: left;
+    p {
+      margin:0;
+      padding:0;
+      a {
+        color: $black;
+      }
+    }
+    i {
+      padding-right: rem-calc(5);
+      color:$yellow;
+    }
+  }
+}

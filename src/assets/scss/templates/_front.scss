@@ -1,0 +1,263 @@
+section {
+  &#packs-a-lunch {
+    position:relative;
+    @include breakpoint(large) {
+      img {
+        padding-left:rem-calc(80);
+      }
+    }
+    .columns {
+      @include breakpoint(large) {
+        min-height:rem-calc(500);
+        height:calc(100vh - 150px);
+      }
+      &:nth-of-type(1) {
+        position:relative;
+        .row {
+          position:relative;
+          max-width:rem-calc(500);
+          @include breakpoint(medium down) {
+            @include center-x();
+            margin-bottom:rem-calc(50);
+          }
+          margin:0;
+          @include center-both();
+          img {
+            padding:0;
+            margin:0;
+            max-width:rem-calc(100);
+            position:absolute;
+            top:rem-calc(-10);
+            left:rem-calc(375);
+            @include breakpoint(450 down) {
+              display:none;
+            }
+          }
+        }
+        .button {
+          @include breakpoint(500 down) {
+            display:block;
+            margin:rem-calc(20) auto;
+          }
+        }
+        .green-button {
+          background-color:$yellow;
+        }
+      }
+      &:nth-of-type(2) {
+        background:url('../images/background-main.png') no-repeat left bottom;
+        background-size:contain;
+        @include breakpoint(medium down) {
+          height:rem-calc(500);
+        }
+      }
+    }
+    .orbit {
+      position:relative;
+      @include center-both();
+    }
+    .orbit-slide img {
+      position:relative;
+      @include center-x();
+    }
+    a:first-of-type {
+      margin-right:rem-calc(20);
+    }
+  }
+
+  // Lunchbox Investigation
+  &#lunchbox-investigation {
+    @include background-cover('bacteria-bg.jpg');
+    min-height:rem-calc(500);
+    color:$white;
+    font-weight:600;
+    position:relative;
+    h3,p {
+      line-height:1;
+      margin:0;
+    }
+    .columns {
+      @include breakpoint(small only) {
+        text-align:center;
+      }
+      &:nth-of-type(1) {
+        @include breakpoint(large) {
+          padding-left:rem-calc(100);
+        }
+        h3 {
+          margin:rem-calc(10) 0 rem-calc(40) 0;
+        }
+      }
+      &:nth-of-type(2) {
+        img {
+          padding:0 rem-calc(10) rem-calc(10) 0;
+        }
+        p,h2 {
+          display:inline-block;
+          text-transform:none;
+        }
+        p:first-of-type {
+          position:relative;
+          top:rem-calc(15);
+          margin:rem-calc(30) 0;
+        }
+        p:nth-of-type(2) {
+          display:block;
+          margin:rem-calc(10) 0;
+        }
+        h2:nth-of-type(1) {
+          font-size:1.75rem;
+        }
+        h2:nth-of-type(2) {
+          font-size:2rem;
+          margin:rem-calc(10) 0 0 0;
+        }
+      }
+      &:nth-of-type(3) {
+        cursor:pointer;
+        p {
+          font-size:0.7rem;
+          text-align:center;
+          padding:rem-calc(20) 0 rem-calc(30) 0;
+        }
+      }
+    }
+    .tab {
+      @include tabs(100,$turq,after);
+    }
+  }
+
+  // Why People Love FlatBox
+  &#about-flatbox {
+    margin:rem-calc(50) 0;
+    @include breakpoint(small only) {
+      text-align:center;
+    }
+    $colors: #53c3c1, #bbcf30, #e7c91b, #ed66a1, #1f9ac1, #5bb146;
+    .row:nth-of-type(1) {
+      @for $i from 1 through 6 {
+        .columns:nth-of-type(#{$i}) {
+          h3 {
+            color:nth($colors, $i);
+          }
+        }
+      }
+    }
+  }
+
+  // Shop FlatBox
+  &#shop {
+    text-align:center;
+    .column {
+      position:relative;
+      img {
+        max-height:rem-calc(400);
+      }
+    }
+    h3 {
+      margin:rem-calc(15);
+      text-transform:uppercase;
+      position:relative;
+      color:$black;
+      cursor:pointer;
+      &:after {
+        position:absolute;
+        top:-4px;
+        content:'\f178';
+        font-family:FontAwesome;
+        font-size:rem-calc(30);
+        padding-left:rem-calc(10);
+      }
+    }
+    p {
+      line-height:1;
+    }
+  }
+
+  // Testimonials
+  &#testimonials {
+    @include background-cover('testimonials-bg.png');
+    margin:rem-calc(140) 0 rem-calc(50) 0;
+    color:$white;
+    text-align:center;
+    position:relative;
+    h2 {
+      margin:rem-calc(30) 0 rem-calc(30) 0;
+    }
+    img {
+      margin:0 auto;
+    }
+    p {
+      text-align:left;
+      margin:0;
+    }
+    h3 {
+      margin:rem-calc(20) 0 0 0;
+      text-align:left;
+      span {
+        font-size:0.6em;
+      }
+    }
+    .row {
+      max-width:rem-calc(800);
+      margin:rem-calc(75) auto;
+    }
+    .tab {
+      @include tabs(100,$blue,before);
+    }
+  }
+
+  // Featured On
+  &#featured {
+    h2 {
+      margin:rem-calc(50) 0 0 0;
+    }
+    .row {
+      @include grid-layout(2, '.columns', $grid-column-gutter);
+      @include breakpoint(medium) {
+        @include grid-layout(5, '.columns', $grid-column-gutter);
+      }
+      .columns {
+        position:relative;
+        display:block;
+        padding:rem-calc(10);
+        img {
+          display:block;
+          margin:0 auto;
+          position:relative;
+          @include center-y();
+        }
+      }
+    }
+  }
+
+  // Store Locator
+  &#find-store {
+    margin:rem-calc(50) 0 rem-calc(100) 0;
+    text-align:center;
+    h2 {
+      margin-bottom:rem-calc(10);
+    }
+    h4 {
+      text-transform:none;
+      font-weight:400;
+    }
+  }
+
+  // No store near you
+  &#no-store {
+    @include background-cover('store-near-bg.png');
+    position:relative;
+    h2 {
+      color:$white;
+      text-transform:none;
+    }
+    a {
+      position:relative;
+      @include center-y();
+      @include breakpoint(medium down) {
+        @include center-both();
+      }
+    }
+  }
+}
